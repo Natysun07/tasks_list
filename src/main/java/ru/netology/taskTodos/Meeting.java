@@ -1,8 +1,10 @@
 package ru.netology.taskTodos;
-public class Meeting extends Task{
+
+public class Meeting extends Task {
     protected String topic;
     protected String project;
     protected String start;
+
     public Meeting(int id, String topic, String project, String start) {
         super(id);
         this.topic = topic;
@@ -13,9 +15,11 @@ public class Meeting extends Task{
     public String getTopic() {
         return topic;
     }
+
     public String getProject() {
         return project;
     }
+
     public String getStart() {
         return start;
     }

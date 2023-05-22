@@ -18,7 +18,7 @@ public class TasksTest {
 
     @Test
     public void EpicTrueFalse() {
-        String[]subtasks = {"Молоко", "Яйца", "Хлеб"};
+        String[] subtasks = {"Молоко", "Яйца", "Хлеб"};
         Epic epic = new Epic(55, subtasks);
 
         Assertions.assertTrue(epic.matches("Яйца"));

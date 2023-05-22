@@ -37,9 +37,9 @@ public class TodosTest {
 
     @Test
     public void shouldFindQuerySimpleTask() {
-         Task[] expected = {simpleTask};
-         Task[] actual = todos.search("Позвонить");
-         Assertions.assertArrayEquals(expected, actual);
+        Task[] expected = {simpleTask};
+        Task[] actual = todos.search("Позвонить");
+        Assertions.assertArrayEquals(expected, actual);
     }
 
     @Test

@@ -1,4 +1,5 @@
 package ru.netology.taskTodos;
+
 public class Epic extends Task {
     protected String[] subtasks;
 
@@ -6,6 +7,7 @@ public class Epic extends Task {
         super(id);
         this.subtasks = subtasks;
     }
+
     public String[] getSubtasks() {
         return subtasks;
     }
